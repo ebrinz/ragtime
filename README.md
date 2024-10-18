@@ -1,7 +1,15 @@
-## Dev Environment for Mistral based RAG
+## Development Exercise for Mistral based RAG
 
+Purpose of this repo is perfome an exercise in RAG development using HyDE feature
 
-### instructs
+Will run local Mistral Instruct 7b LLM and Milvus db in Docker
+
+Set up vectorized embeddings and figure out a metric to compare RAG search vs HyDE search
+
+Dataset used:
+https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots
+
+## Getting Starte
 
 from repo ...
 ```
@@ -10,8 +18,14 @@ pipenv install
 pipenv run python -m ipykernel install --user --name="da_$(basename $(pwd))" --display-name="da_$(basename $(pwd))"
 ```
 
-Restart your editor
+- Restart your editor
 
-open notbook and select kernel and interpreter
+- Open notebook and select kernel and interpreter
+
+- Refer to devjournal.ipynb for further instructions
+
+## Outcomes
+
+TBD
 
 
