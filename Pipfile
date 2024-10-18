@@ -15,8 +15,11 @@ safetensors = "*"
 accelerate = "*"
 protobuf = "*"
 sentencepiece = "*"
+pymilvus = "*"
+pandas = "*"
 
 [dev-packages]
+bitsandbytes = "*"
 
 [requires]
 python_version = "3.11"
