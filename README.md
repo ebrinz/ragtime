@@ -20,9 +20,11 @@ pipenv run python -m ipykernel install --user --name="da_$(basename $(pwd))" --d
 
 - Restart your editor
 
-- Open notebook and select kernel and interpreter
+- Open main.ipynb notebook and select kernel and interpreter
 
-- Refer to devjournal.ipynb for further instructions
+- Run
+
+- Refer to devjournal.ipynb for development work log
 
 ## Outcomes
 
