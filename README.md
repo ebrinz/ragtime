@@ -1,33 +1,33 @@
-## Development Exercise for Mistral based RAG
+# Development Exercise for Mistral-based RAG
 
-Purpose of this repo is perfome an exercise in RAG development using HyDE feature
+This repository is an exercise in developing Retrieval-Augmented Generation (RAG) using the Mistral 7B LLM and Milvus database. The application is designed to run locally within Docker containers.
 
-Will run local Mistral Instruct 7b LLM and Milvus db in Docker
+## Dataset
+The dataset used for this project:
+[Wikipedia Movie Plots - Kaggle](https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots)
 
-Set up vectorized embeddings and figure out a metric to compare RAG search vs HyDE search
+## Getting Started
 
-Dataset used:
-https://www.kaggle.com/datasets/jrobischon/wikipedia-movie-plots
+To set up the environment and get started with the project, follow these steps:
 
-## Getting Starte
+1. Clone the repository and navigate to its directory.
+2. Initialize and activate the environment:
 
-from repo ...
-```
-pipenv --python 3.11
-pipenv install
-pipenv run python -m ipykernel install --user --name="da_$(basename $(pwd))" --display-name="da_$(basename $(pwd))"
-```
+    ```bash
+    pipenv --python 3.11
+    pipenv install
+    pipenv run python -m ipykernel install --user --name="da_$(basename $(pwd))" --display-name="da_$(basename $(pwd))"
+    ```
 
-- Restart your editor
+3. **Restart your code editor** to recognize the new environment.
 
-- Open main.ipynb notebook and select kernel and interpreter
+4. **Open** the `main.ipynb` notebook and select the appropriate kernel and interpreter.
 
-- Run
+5. **Run the notebook** to start interacting with the RAG setup.
 
-- Refer to devjournal.ipynb for development work log
+For additional notes and development progress, refer to `devjournal.ipynb`.
 
-## Outcomes
+## Project Structure
 
-TBD
-
-
+- `main.ipynb` - The primary notebook for running RAG processes.
+- `devjournal.ipynb` - The development work log and notes.
